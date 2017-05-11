@@ -1,6 +1,13 @@
 $(document).ready(function() {
 
+    var home = $('#home');
+    var portfolio = $('#portfolio');
+    var contact = $('#contact');
+    var section = $('.section');
 
+    home.click(function() {
+        this.addClass('clicked');
+    })
 
 });
 
